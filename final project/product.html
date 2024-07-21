@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="header-left">
+                <a href="store.html"><img id="logo" src="x_logo_store.png" alt="Logo"></a>
+            </div>
+            <div class="header-center">
+                <div class="search-container">
+                    <input type="text" id="search" placeholder="search">
+                    <div class="icon-container"><img src="x_search.png" alt="search" class="icon"></div>
+                </div>
+            </div>
+            <div class="header-right">
+                <a href="store.html"><div class="cart-icon"><img src="x_home.png" alt="Home" class="icon"></div></a>
+                <a href="#"><div class="cart-icon"><img src="x_user.png" alt="User" class="icon"></div></a>
+                <a href="favorites.html">
+                    <div class="cart-icon">
+                        <img src="x_favorites.png" alt="Favorites" class="icon">
+                        <span class="favorites-count">0</span>
+                    </div>
+                </a>        
+                <a href="cart.html">
+                    <div class="cart-icon">
+                        <img src="x_cart.png" alt="Cart" class="icon">
+                        <span class="cart-count">0</span>
+                    </div>
+                </a>
+            </div>
+            <button class="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </button>
+            <div class="hamburger-menu">
+                <a href="store.html"><div class="cart-icon"><img src="x_home.png" alt="Home" class="icon"></div></a>
+                <a href="#"><div class="cart-icon"><img src="x_user.png" alt="User" class="icon"></div></a>
+                <a href="favorites.html">
+                    <div class="cart-icon">
+                        <img src="x_favorites.png" alt="Favorites" class="icon">
+                        <span class="favorites-count">0</span>
+                    </div>
+                </a>        
+                <a href="cart.html">
+                    <div class="cart-icon">
+                        <img src="x_cart.png" alt="Cart" class="icon">
+                        <span class="cart-count">0</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <nav class="header-bottom">
+            <ul id="main-menu">
+                <li><a href="#">Deals</a></li>
+                <li><a href="#">Best Sellers</a></li>
+                <li><a href="#">New Arrivals</a></li>            
+            </ul>
+            <a class="header-button">
+                <i class="fa fa-bars"></i> Categories
+                <span class="arrow">&#9662;</span>
+                <ul class="submenu" id="categories">
+                    <!-- Categories will be loaded here dynamically -->
+                </ul>
+            </a>
+        </nav>
+        <div class="categories-container">
+            <ul id="categories-row">
+                <!-- Categories will be loaded here dynamically -->
+            </ul>
+        </div>
+    </header>
+    <main id="main-content">
+        <!-- Dynamic content will be loaded here -->
+        <div id="promoted-categories">
+            <!-- Promoted categories and products will be loaded here -->
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Customer Service</h4>
+                <ul>
+                    <li>Help Center</li>
+                    <li>Your Account</li>
+                    <li>Manage your content and devices</li>
+                    <li>Terms and Conditions for EU/EEA/UK Consumers</li>
+                    <li>Send Us Feedback</li>
+                </ul>
+            </div>            
+            <div class="footer-section">
+                <h4>Make Money with Us</h4>
+                <ul>
+                    <li>Sell on Everything</li>
+                    <li>Sell Your Apps on Everything</li>
+                    <li>Become an Affiliate</li>
+                    <li>Advertise Your Products</li>
+                    <li>Self-Publish with Us</li>
+                </ul>
+            </div>
+             
+            <div class="footer-section">
+                <h4>About Shopping With Us</h4>
+                <ul>
+                    <li>Payment Methods</li>
+                    <li>Shipping Options</li>
+                    <li>Buyer Protection</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Pay With</h4>
+                <div class="payment-icons">
+                    <img src="footer/apple-pay.png" alt="Google Pay">
+                    <img src="footer/paypal.png" alt="PayPal">
+                    <img src="footer/american-express.png" alt="American Express">
+                    <img src="footer/jcb.png" alt="JCB">
+                    <img src="footer/MasterCard.png" alt="MasterCard">
+                    <img src="footer/visa.png" alt="Visa">
+                    <img src="footer/apple-pay.png" alt="Apple Pay">
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Stay Updated</h4>
+                <div class="social-icons">
+                    <img src="footer/instagram.png" alt="Instagram">
+                    <img src="footer/twitter.png" alt="Twitter">
+                    <img src="footer/facebook.png" alt="Facebook">
+                    <img src="footer/whatsapp.png" alt="WhatsApp">
+                </div>
+            </div>
+        </div>
+    </footer>    
+    <script src="script.js"></script>
+</body>
+</html>
